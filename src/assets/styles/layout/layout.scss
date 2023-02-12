@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    main {
+        margin-block-start: 5em;
+        display: block;
+        flex-grow: 1;
+    }
+}

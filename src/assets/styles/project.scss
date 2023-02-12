@@ -1,0 +1,17 @@
+.project {
+    margin-inline-start: 5em;
+    margin-inline-end: 5em;
+    h1 {
+        margin-block-start: 0.5em;
+        margin-block-end: 4rem;
+        font-size: 2em;
+        font-weight: 800;
+        color: var(--color-primary);
+    }
+}
+@media screen and (max-width: 600px) {
+    .project {
+        margin-inline-start: 1.5em;
+        margin-inline-end: 1.5em;
+    }
+}
